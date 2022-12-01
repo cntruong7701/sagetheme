@@ -1,0 +1,100 @@
+
+
+// .container{
+//     display: flex;
+//     justify-content: center;
+// }
+.Line-4 {
+    width: 186px;
+    border-top: 1px solid #e03116;
+    height: 2px;
+  }
+
+
+.Drive, .Improve, .Leverage, .Enhance {
+    font-family: Poppins;
+}
+
+.Drive-p,.Improve-p,.Leverage-p,.Enhance-p{
+    font-family: Poppins;
+}
+/* Tablet 1024*/
+@media (max-width: 1024px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .column-left, .column1{
+        width: 100%;
+    }
+    .column-right{
+        width: 100%;
+        margin-top: 52px;
+    }
+
+    .row1, .row2{
+        width: 50%;
+    }
+
+    .Drive-p{
+        height: 220px;
+        width: 76%;
+    }
+
+    .Improve{
+        height: 62px;
+    }
+
+    .Improve-p{
+        height: 220px;
+        width: 370px;
+    }
+
+    .Leverage{
+        width: 395px;
+    }
+
+    .Leverage-p{
+        width: 395px;
+        height: 194px;
+    }
+
+    .Enhance-p{
+        width: 395px;
+        height: 249px;
+    }
+}
+
+/* Tablet 768*/
+@media (max-width: 768px){
+    .column-left{
+        width: 510px;
+        height: 169px;
+        line-height: 1.33;
+    }
+    .column-right{
+        flex-direction: column;
+        width: 510px;
+    }
+
+    .row{
+        width: 516px;
+    }
+
+    .Drive-p{
+        width: 510px;
+        height: 154px;
+        margin: 0;
+    }
+
+    .Leverage{
+        width: 510px;
+        height: 63px;
+    }
+
+    .Improve-p, .Leverage-p, .Enhance-p{
+        width: 510px;
+    }
+
+    
+}
